@@ -11,6 +11,6 @@ Please refer to Challenge 1 folder for solution.
 ### Challenge 2: Calculate the average score of basketball team and find the winner
 
 This challenge involves Javascript operator using **if/else** conditions.
-![Code Sample]()
+![Code Sample](https://github.com/polinetuch/js-coding-challengs/blob/master/images/challenge-2.JPG?raw=true)
 
 ### Challenge 3: Calculate bills, tips and percentage
