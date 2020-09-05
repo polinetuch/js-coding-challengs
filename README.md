@@ -1,6 +1,6 @@
 # Javascript Coding Challenges
 
-## In this repository, I am showcasing my Javascript skills. Each of the challenge is solved using just pure Javascript.
+## :sunglasses: In this repository, I am showcasing my Javascript skills. Each of the challenge is solved using just pure Javascript.
 
 ### Challenge 1: Calculate two people's body mass index
 
@@ -9,5 +9,8 @@ The **division /** operator has a precedency of 15, but in this case the operato
 Please refer to Challenge 1 folder for solution.
 
 ### Challenge 2: Calculate the average score of basketball team and find the winner
+
+This challenge involves Javascript operator using **if/else** conditions.
+![Code Sample]()
 
 ### Challenge 3: Calculate bills, tips and percentage
