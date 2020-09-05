@@ -15,3 +15,12 @@ This challenge involves Javascript operator using **if/else** conditions.
 ![Challenge 2](https://github.com/polinetuch/js-coding-challengs/blob/master/images/challenge-2.JPG?raw=true)
 
 ### Challenge 3: Calculate bills, tips and percentage
+
+Use function expression to do calculation and returns back value.
+![Challenge 3](https://github.com/polinetuch/js-coding-challengs/blob/master/images/challenge-3.JPG?raw=true)
+
+### Challenge 4: Calculate BMI by using objects and properties
+
+![Challenge 4](https://github.com/polinetuch/js-coding-challengs/blob/master/images/challenge-4.JPG?raw=true)
+
+### Challenge 5: Second version of challenge 3 but this times, working with array, loops, objects - properties and methods.. in progress
