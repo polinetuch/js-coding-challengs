@@ -31,4 +31,4 @@ var john = {
     },
 };
 
-console.log(john.calculatePercentage());
+console.log(john);
