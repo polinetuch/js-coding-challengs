@@ -1,6 +1,6 @@
 # Javascript Coding Challenges
 
-## :sunglasses: In this repository, I am showcasing my Javascript skills. Each of the challenge is solved using just pure Javascript.
+## :sunglasses: In this repository, I am showcasing my Javascript skills learnt from a Udemy Course. Each of the challenge is solved using just pure Javascript.
 
 ### Challenge 1: Calculate two people's body mass index
 
