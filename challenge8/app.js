@@ -39,7 +39,6 @@ class Park extends Towns {
     };
 };
 
-
 class Street extends Towns {
     constructor(name, buildYear, length, size = 3) {
         super(name, buildYear);
@@ -59,3 +58,16 @@ class Street extends Towns {
         is ${classfication.get(this.size)} street.`);
     }
 };
+
+const allParks = [
+    new Park('Jells Park', 1990, 0.2, 756),
+    new Park('Boolean Park', 1991, 2.2, 2494),
+    new Park('Lucky Park', 1992, 3.4, 543)
+];
+
+const allStreets = [
+    new Street('Beswick Street', 2301, 9.4, 3),
+    new Street('Bertha Street', 1987, 9.4, 4),
+    new Street('Durham Place', 1934, 8.6, 2),
+    new Street('Loller Street', 1075, 6.4, 5),
+];
