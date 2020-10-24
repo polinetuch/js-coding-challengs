@@ -71,3 +71,19 @@ const allStreets = [
     new Street('Durham Place', 1934, 8.6, 2),
     new Street('Loller Street', 1075, 6.4, 5),
 ];
+
+function reportParks(p) {
+    console.log('------Parks Report------');
+
+    // Tree Density
+    p.forEach(el => el.calcTreeDensity());
+
+    // Average Age
+    const ages = p.map(el => new Date().getFullYear() - el.buildYear);
+    const [totalAge, avgAge] = calc(ages);
+    console.log(`All ${p.length} parks have an average of ${avgAge} years.`)
+
+    // Parks that have more than 100 trees
+    const i = p.map(el => el.numOfTrees).findIndex(el => el >= 1000);
+    console.log(`${p[i].name} has more than 1000 trees`)
+};
