@@ -87,3 +87,15 @@ function reportParks(p) {
     const i = p.map(el => el.numOfTrees).findIndex(el => el >= 1000);
     console.log(`${p[i].name} has more than 1000 trees`)
 };
+
+function reportStreets(s) {
+    console.log('------Streets Report------');
+    const [totalLength, avgLength] = calc(s.map(el => el.length));
+    console.log(`All ${s.length} streets have total length of ${totalLength} km
+        with average of ${avgLength} km.`);
+
+    s.forEach(el => el.classifyStreet());
+};
+
+reportParks(allParks);
+reportStreets(allStreets);
