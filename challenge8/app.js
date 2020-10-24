@@ -38,3 +38,24 @@ class Park extends Towns {
        console.log(`${this.name} had tree density of ${treeDensity}`);
     };
 };
+
+
+class Street extends Towns {
+    constructor(name, buildYear, length, size = 3) {
+        super(name, buildYear);
+        this.length = length;
+        this.size = size;
+    };
+
+    classifyStreet() {
+        const classfication = new Map();
+        classfication.set(1, 'tiny');
+        classfication.set(2, 'small');
+        classfication.set(3, 'normal');
+        classfication.set(4, 'big');
+        classfication.set(5, 'huge');
+
+        console.log(`${this.name} was built in ${this.buildYear} 
+        is ${classfication.get(this.size)} street.`);
+    }
+};
