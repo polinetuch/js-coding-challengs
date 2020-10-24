@@ -72,6 +72,12 @@ const allStreets = [
     new Street('Loller Street', 1075, 6.4, 5),
 ];
 
+function calc(arr) {
+    const sum = arr.reduce((prev, cur, index) => prev + cur, 0);
+    
+    return [sum, sum / arr.length];
+};
+
 function reportParks(p) {
     console.log('------Parks Report------');
 
