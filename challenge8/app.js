@@ -25,3 +25,16 @@ class Towns {
         this.buildYear = buildYear;
     }
 };
+
+class Park extends Towns {
+    constructor(name, buildYear, area, numOfTrees) {
+        super(name, buildYear);
+        this.area = area;
+        this.numOfTrees = numOfTrees;
+    };
+
+    calcTreeDensity() {
+       const treeDensity = this.numOfTrees / this.area;
+       console.log(`${this.name} had tree density of ${treeDensity}`);
+    };
+};
